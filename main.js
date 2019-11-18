@@ -7,7 +7,7 @@ const option = reader.questionInt("Please enter option: \n 1:Binary \n 2:Hexadec
 if(option === 1){
   console.log(utils.convertToBinary(number));
 }else if(option === 2){
-  console.log(uitls.convertToHexa(number));
+  console.log(utils.convertToHexa(number));
 }else if(typeof option === "number"){
   console.log("There is no options for that number! ");
 }else{

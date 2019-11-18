@@ -23,7 +23,7 @@ function convertToBinary(n) {
   
     for (let i = n; i > 0; i = Math.floor(i / 16)){
       if(i % 16 >= 10) {
-        array.push(vals[i % 16 - 10]);
+        array.push(values[i % 16 - 10]);
       }else {
         array.push(i % 16);
       }
